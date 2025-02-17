@@ -1,0 +1,10 @@
+[02-16|14:49:57.566] INFO ux/output.go:13 [0;34m[;1mcreate and run local network from snapshot[0;0m[0;0m
+[02-16|14:49:57.569] INFO local/network.go:475 creating network {"node-num": 1}
+[02-16|14:49:58.820] INFO local/network.go:797 adding node {"node-name": "node1", "node-dir": "/Users/abhaar/.avalanche-cli/local/myNewBlockchain-local-node-local-network/node1", "log-dir": "/Users/abhaar/.avalanche-cli/local/myNewBlockchain-local-node-local-network/node1/logs", "db-dir": "/Users/abhaar/.avalanche-cli/local/myNewBlockchain-local-node-local-network/node1/db", "p2p-port": 49542, "api-port": 49539}
+[02-16|14:49:58.822] INFO local/network.go:827 checking local network healthiness {"num-of-nodes": 1}
+[02-16|14:50:01.831] INFO server/network.go:852 [0;36mprometheus conf file /Users/abhaar/.avalanche-cli/local/myNewBlockchain-local-node-local-network/prometheus.yaml[0;0m
+[02-16|14:50:01.832] INFO ux/output.go:13 [0;34m[;1mwaiting for all nodes to report healthy...[0;0m[0;0m
+[02-16|14:50:01.832] INFO local/network.go:827 checking local network healthiness {"num-of-nodes": 1}
+[02-16|14:50:01.835] INFO server/network.go:749 [1;34m[blockchain RPC for "qDN2tuGnSLoKULcguKqCqSSKf5aLRu8Trr8tT1ei6ULQ1va9g"] "http://127.0.0.1:49539/ext/bc/96vcrZSpdDSkyHLnfxX3KpT4dFj9rqhL8Ko2vMF6CmYxDtGR9"[0;0m
+[02-16|14:50:10.463] INFO local/network.go:952 done stopping network
+[02-16|14:50:10.463] INFO ux/output.go:13 [0;31mterminated network[0;0m
